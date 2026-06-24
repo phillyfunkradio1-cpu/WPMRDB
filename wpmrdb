@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- RadioBOSS Cloud Song Request Widget [Style] (Start) -->
+<style>
+    .rbcloud_songrequest { font-family: sans-serif; color: #202020; }
+    .rbcloud_songrequest .rbc_search { display: flex; }
+    .rbcloud_songrequest input, .rbcloud_songrequest button { box-sizing: border-box; height: 20pt; }
+    .rbcloud_songrequest input { padding: 2pt; border: 1px solid #707070; flex: 1; }
+    .rbcloud_songrequest button { padding: 2pt 4pt; min-width: 60pt; }
+    .rbcloud_songrequest .rbc_result { border: 1px solid #707070; display: none; margin-top: 2pt; padding: 0 4pt; }
+    .rbcloud_songrequest .rbc_result_item { display: flex; align-items: center; padding: 4pt 0; }
+    .rbcloud_songrequest .rbc_result_item:not(:last-child) { margin-bottom: 2pt; border-bottom: 1px solid #979797; }    
+    .rbcloud_songrequest .rbc_result_item div:first-child { flex: 1; word-break: break-word; padding-right: 5pt; }
+</style>
+<!-- RadioBOSS Cloud Song Request Widget [Style] (End) -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../3rdparty/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Philly Funk Radio</title>
+    <style>
+        body {
+            font-size: 12pt;
+            background-color: #fafafa;
+            font-family: "Roboto", Arial, Helvetica, sans-serif;
+            font-weight: 400;
+        }
+        header {
+            padding: 12pt 0;
+            text-shadow: 0px 0px 5px #b9b9b9;
+            box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.1);
+            font-size: 40pt;
+            background: #dab1f7;
+            background: linear-gradient(to right, #a5bff5, #dab1f7);
+            font-weight: 700;
+            border-bottom: 1px solid #a4a4a4;
+        }
+        header .logo {
+            font-size: 12pt;
+            height: 200px;
+            width: 200px;
+            background-color: #7f7f7f;
+        }
+        header .sub {
+            font-size: 16pt;
+        }
+        footer {
+            color: #5c5c5c;
+            padding: 8pt;
+            background-color: #f0f0f0;
+            font-size: 0.9em;
+            border-top: 1px solid #dfdfdf;
+            margin-top: 3pt;
+        }
+        footer a {
+            color: #5c5c5c;
+        }
+        .container-fluid {
+            max-width: 850px;
+            background-color: white;
+            border: 1px solid #a4a4a4;
+            margin: 20pt auto;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+        }
+        .box-head {
+            margin-bottom: 2pt;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+        .margin_1 {
+            margin-bottom: 12pt;
+        }
+        .marginl_1 {
+            margin-left: 12pt;
+        }
+        .flex {
+            display: flex;
+        }
+        .flex-vcenter {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row margin_1">
+            <header class="col-xs-12">
+                <div class="flex flex-vcenter">
+                    <div class="logo">
+                        <img src="https://c44.radioboss.fm/stationlogo/102.jpg?r=52" alt="logo" width="200" height="200">
+                    </div>
+                    <div class="station_info marginl_1 margin_1">
+                        <div>
+                            Philly Funk Radio
+                        </div>
+                        <div class="sub">
+                            The Funkiest Radio On The Web
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+<center><!-- RCAST.NET - START EMBEDDED PLAYER -->
+<iframe width="500" height="78" src="https://players.rcast.net/iframebar/63323" frameborder="0" scrolling="no" allow="autoplay"></iframe>
+<div style="overflow:hidden; height:0px; width:0px;"><a href="https://www.rcast.net" title="Internet Radio Hosting">RCAST.NET</a></div>
+<!-- RCAST.NET - END EMBEDDED PLAYER --></center><br>
+<br><br>
+
+        <div class="row margin_1">
+            <div class="col-xs-4">
+                <div class="box-head">Listen Live</div>
+
+                <!-- RadioBOSS Cloud Mini Player Widget (Start) -->
+                <div class='rbcloud_mplayer' id='rbcloud_mplayer3781'></div>
+                <script src='https://c44.radioboss.fm/w/mplayer.js?u=https%3A%2F%2Fc44.radioboss.fm%3A8102%2Fstream&amp;wid=3781&amp;pw=80&amp;ca=%23111111&amp;cg=%23b3b3b3'></script>
+                <!-- RadioBOSS Cloud Mini Player Widget (End) -->
+
+            </div>
+            <div class="col-xs-6">
+                <div class="box-head">Now playing</div>
+                
+
+                        <!-- RadioBOSS Cloud NowPlaying Widget (Start) -->
+                        <div class='rbcloud_nowplaying' style='display: flex; align-items: center;'>
+                            <div><a target='_blank' href='https://c44.radioboss.fm/w/artwork/102.jpg'><img id='rbcloud_np_c8446' src='https://c44.radioboss.fm/w/artwork/102.jpg' width='65' height='65' alt='cover art'></a>
+                        </div>
+                            <div style='margin-left: 5pt;'><div id='rbcloud_np_a8446' style='font-weight: bold'></div><div id='rbcloud_np_t8446'>...</div></div>
+                        </div>
+                        <script src='https://c44.radioboss.fm/w/nowplaying2.js?u=102&amp;wid=8446&amp;tf=0'></script>
+                        <!-- RadioBOSS Cloud NowPlaying Widget (End) -->
+
+            </div>
+            <div class="col-xs-2">
+                <div class="box-head">&nbsp;</div>
+
+                <!-- RadioBOSS Cloud Track Timer Widget (Start) -->
+                <div class='rbcloud_tracktimer'>
+                    <span id='rbcloud_tracktimer_e18227'></span>
+                    <span id='rbcloud_tracktimer_sep18227' hidden> &frasl; <!-- slash --> </span>
+                    <span id='rbcloud_tracktimer_r18227'></span>
+                </div>
+                <script src='https://c44.radioboss.fm/w/tracktimer.js?u=102&amp;t=0&amp;wid=18227'></script>
+                <!-- RadioBOSS Cloud Track Timer Widget (End) -->
+
+            </div>
+        </div>
+
+        <div class="row margin_1">
+            <div class="col-xs-4">
+                <div class="box-head">Tune in links</div>
+
+                <!-- RadioBOSS Cloud TuneIn Links Widget (Start) -->
+                <div class='rbcloud_links'>
+                    <div><a href='https://c44.radioboss.fm/stream/102'>Listen</a></div>
+                    <div><a href='https://c44.radioboss.fm/playlist/102/stream.m3u'>M3U playlist</a></div>
+                    <div><a href='https://c44.radioboss.fm:8102/stream'>Direct stream link</a></div>
+                </div>
+                <!-- RadioBOSS Cloud TuneIn Links Widget (End) -->
+
+                <p class="margin_1"></p>
+                <div class="box-head">Contacts</div>
+                <a href="https://jerrywilson1974.wixsite.com/wpmrdb">Website with song request</a>
+            </div>
+            <div class="col-xs-8">
+                <div class="box-head">Next track</div>
+
+                <!-- RadioBOSS CloudNextTrack Widget (Start) -->
+                <div class='rbcloud_nexttrack' style='display: flex; align-items: center;'>
+                    <div><a target='_blank' href='https://c44.radioboss.fm/w/artwork_next/102.jpg'><img id='rbcloud_nt_c5871' src='https://c44.radioboss.fm/w/artwork_next/102.jpg' width='65' height='65' alt='cover art'></a>
+                </div>
+                    <div style='margin-left: 5pt;'><div id='rbcloud_nt_a5871' style='font-weight: bold'></div><div id='rbcloud_nt_t5871'>...</div></div>
+                </div>
+                <script src='https://c44.radioboss.fm/w/nexttrack.js?u=102&amp;wid=5871&amp;tf=0'></script>
+                <!-- RadioBOSS Cloud NextTrack Widget (End) -->
+
+                <p class="margin_1"></p>
+                <div class="box-head">Recently played tracks</div>
+
+                <!-- RadioBOSS Cloud Recent Tracks Widget (Start) -->
+                <div class='rbcloud_recenttracks' id='rbcloud_recent2031' data-cnt='10'>
+                    <div class='rbcloud_recent_track' style='display: flex; align-items: center; margin-bottom: 5pt;'>
+                        <div class='rbcloud_recent_track_cover' data-size='65'></div>
+                        <div style='margin-left: 5pt;'><div class='rbcloud_recent_artist' style='font-weight: bold'></div><div class='rbcloud_recent_title'>...</div></div>
+                    </div>
+                </div>
+                <script src='https://c44.radioboss.fm/w/recent.js?u=102&amp;wid=2031&amp;v=2&amp;tf=0'></script>
+                <!-- RadioBOSS Cloud Recent Tracks Widget (End) -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <footer class="col-xs-12"><strong><a href="https://www.radioboss.fm">©2026 WPMR-DB Philly Funk Radio</a></strong> Created By Gerald McNeil</footer>
+        </div>
+
+    </div>
+  
+</body>
+</html>
